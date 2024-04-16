@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@100;200;300;400;500&family=Bellefair&display=swap');
+
+.Crew {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background: url("../../Images/background-crew-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.crew-top {
+    height: 136px;
+}
+
+.crew-bottom {
+    width: 100%;
+    display: flex !important;
+    flex-direction: row;
+    position: relative;
+}
+
+.crew-left {
+    text-align: left;
+    width: 50%;
+}
+
+.crew-title {
+    position: relative;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    margin-top: 76px;
+    display: block;
+    left: 0;
+    text-align: left;
+    margin-left: 11.5625%;
+}
+
+.crew-title > span {
+    font-weight: 700;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+.crew-details {
+    position: relative;
+    left: 23.125%;
+    margin-top: 154px;
+    margin-bottom: 96px;
+}
+
+.crew-role {
+    font-family: Bellefair;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.crew-name {
+    font-family: Bellefair;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    color: #FFFFFF;
+}
+
+.crew-desc {
+    margin-top: 27px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+    width: 444px;
+    height: 160px;
+}
+
+.carousel-buttons {
+    margin-top: 120px;
+}
+
+.carousel-button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.17;
+    margin-right: 24px;
+}
+
+.carousel-button:hover {
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.active-button {
+    background: #FFFFFF;
+    opacity: 1;
+}
+
+.active-button:hover {
+    opacity: 1;
+}
+
+.crew-right {
+    position: relative;
+    width: 50%;
+}
+
+.crew-image {
+    position: absolute;
+    height: 601px;
+    bottom: 0;
+    left: 32px;
+}
+
+.crew-image-border {
+    display: none;
+}
+
+@media screen and (max-width: 1226px) {
+    .Crew {
+        background: url("../../Images/background-crew-tablet.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+
+    .crew-top {
+        height: auto;
+    }
+    
+    .crew-left {
+        width: auto;
+        text-align: center;
+        padding: 0 5.01vw;
+    }
+
+    .crew-title {
+        position: static;
+        text-align: left;
+        display: block;
+        margin: 40px 5.01vw 0;
+    }
+
+    .crew-details {
+        margin-top: 60px;
+        margin-bottom: 0;
+        position: static;
+        width: auto;
+    }
+
+    .crew-name {
+        font-family: Bellefair;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 46px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .crew-desc {
+        width: 59.63vw;
+        margin: auto;
+        min-height: 112px;
+        height: auto;
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        color: #D0D6F9;
+        padding-top: 16px;
+    }
+
+    .carousel-buttons {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .carousel-button {
+        width: 10px;
+        height: 10px;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+
+    .crew-bottom {
+        flex-direction: column;
+        position: static;
+        padding: 0;
+    }
+
+    .crew-right {
+        margin-top: 40px;
+        width: auto;
+        text-align: center;
+    }
+
+    .crew-image {
+        position: static;
+        height: 55.85vh;
+        min-height: 572px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Crew {
+        background: url('../../Images/background-crew-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .crew-title {
+        text-align: center;
+        font-family: Barlow Condensed;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+        text-transform: uppercase;
+        margin-top: 24px;
+    }
+
+    .crew-bottom {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .crew-details {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 33px;
+    }
+
+    .crew-role {
+        font-family: Bellefair;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        margin-top: 32px;
+    }
+
+    .crew-name {
+        font-family: Bellefair;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-top: 8px;
+    }
+
+    .crew-desc {
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #D0D6F9;
+        width: 87.2vw;
+        margin-bottom: 104px;
+    }
+
+    .crew-right {
+        margin-top: 32px;
+    }
+
+    .crew-image {
+        height: 223px;
+        width: auto;
+        min-height: auto;
+    }
+
+    .crew-image-border {
+        display: block;
+        width: 87.2vw;
+        height: 1px !important;
+        background: #ffffff;
+        margin: auto;
+    }
+
+    .carousel-buttons {
+        margin-top: 0
+    }
+}

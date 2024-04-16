@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@100;200;300;400;500&family=Bellefair&display=swap');
+.Home {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background: url("../../Images/background-home-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.home-top {
+    height: 30%;
+}
+
+.home-bottom {
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 116px;
+}
+
+.home-left {
+    width: 50%;
+}
+
+.home-text {
+    width: 450px;
+    top: 60px;
+    left: 22.9%;
+    position: relative;
+    text-align: left;
+}
+
+.home-first {
+    font-size: 28px;
+    margin: 0;
+}
+
+.home-second {
+    font-size: 220px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.home-third {
+    font-size: 20px;
+    margin: 0;
+    line-height: 32px;
+    width: 444px;
+    text-align: justify;
+}
+
+.home-right {
+    width: 50%;
+}
+
+.home-explore {
+    position: relative;
+    top: 200px;
+    height: 274px;
+    width: 274px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: Bellefair;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 2px;
+    color: #0B0D17;
+}
+
+@media screen and (max-width: 1226px) {
+    .Home {
+        background: url("../../Images/background-home-tablet.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .home-top {
+        height: auto;
+    }
+
+    .home-bottom {
+        flex-direction: column;
+        margin-top: 108px;
+    }
+    
+    .home-left {
+        width: auto;
+        padding: 0 20.7% 156px;
+    }
+
+    .home-text {
+        position: static;
+        width: 100%;
+        text-align: center;
+    }
+
+    .home-second {
+        font-family: Bellefair;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 150px;
+        line-height: 150px;
+        color: #FFFFFF;
+    }
+
+    .home-third {
+        margin: auto;
+        width: 444px;
+        position: static;
+        text-align: center;
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        color: #D0D6F9;
+    }
+
+    .home-right {
+        width: 100%;
+    }
+
+    .home-explore {
+        top: 0;
+        margin-bottom: 90px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .Home {
+        background: url("../../Images/background-home-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .home-bottom {
+        margin-top: 48px;
+    }
+
+    .home-left {
+        padding: 0 24px;
+    }
+
+    .home-first {
+        font-family: Barlow Condensed;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 2.7px;
+        color: #D0D6F9;
+        margin-bottom: 16px;
+    }
+
+    .home-second {
+        font-family: Bellefair;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 80px;
+        line-height: 100px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+    }
+
+    .home-third {
+        width: 100%;
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #D0D6F9;
+        margin-bottom: 81px;
+    }
+
+    .home-explore {
+        width: 150px;
+        height: 150px;
+        font-family: Bellefair;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        letter-spacing: 1.25px;
+        color: #0B0D17;
+    }
+}
