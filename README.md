@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github]()
-- Live Site URL: [VERCEL]()
+- Solution URL: [Github](https://github.com/kyubi2017/Space-tourism-multi-page-website)
+- Live Site URL: [VERCEL](https://space-tourism-multi-page-website-z5pv.vercel.app/)
 
 ## My process
 
